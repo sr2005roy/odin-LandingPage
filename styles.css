@@ -1,0 +1,192 @@
+html, *{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1f2937;
+    width: 100%;
+    height: 10vh;
+}
+.headerlink {
+    width: 32%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #e5e7eb;
+    font-size: 18px; 
+}
+.logo{
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold; 
+}
+.part1{
+    background-color: #1f2937;
+    margin: 0;
+    width: 100%;
+    height: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.part1 .one{
+    width: 36%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+.Maintext{
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900; 
+}
+.text{
+    color: #e5e7eb;
+    font-size: 18px; 
+}
+.part1 .one button{
+    font-weight: bold;
+    color: #e5e7eb;
+    font-size: 18px;
+    background-color: #3882f6;
+    align-self: flex-start;
+    width: 25%;
+    height: 15%;
+    border-radius: 10px;
+    border: none;
+    margin-top: 4%;
+}
+.part1 .two{
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 36%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.part2{
+    background-color: #f9faf8;
+    margin: 0;
+    width: 100%;
+    height: 40vw;
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.part2 .head{
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900; 
+    position: absolute;
+    top: 5%;
+    left: auto;
+}
+.boxes{
+    /* background-color: red; */
+    width: 64%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.boxes .box{
+    width: 20%;
+}
+.boxes .bo{
+    border: 1vh solid #3882f6;
+    width: 100%;
+    aspect-ratio: 1;
+    border-radius: 24px;
+}
+.boxes .words{
+    color: #1f2937;
+    font-size: 16px; 
+    text-align: center;
+}
+.part3{
+    background-color: #e5e7eb;
+    margin: 0;
+    width: 100%;
+    height: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.para{
+    width: 64%;
+    font-weight: 300;
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+}
+.Thor{
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900; 
+    position: absolute;
+    bottom: 20%;
+    right: 20%;
+}
+
+.part4{
+    background-color: #f9faf8;
+    margin: 0;
+    width: 100%;
+    height: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ask{
+    background-color:#3882f6;
+    width: 80%;
+    height: 40%;
+    border-radius: 12px;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-around;
+    align-items: center;
+}
+.ask button{
+    display: inline-block;
+    font-weight: bold;
+    font-size: 18px;
+    color: #f9faf8;
+    background-color:#3882f6;
+    width: 12.5%;
+    height: 25%;
+    border-radius: 10px;
+    border: 0.5vh solid #f9faf8;
+}
+.ask .call{
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold;
+}
+.ask .what{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+footer{
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    width: 100%;
+    height: 10vh;
+}
+footer i{
+    margin: 0 1vh;
+}
